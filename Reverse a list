@@ -1,0 +1,21 @@
+3 5
+first_element:59 length:4
+3 start
+last_element:0 count:0 one:1 duplicate:0
+start:4 length count stop
+1 length first_element last_element
+2 last_element one last_element
+7 first_element address1
+7 last_element loop1
+jump:7 address1 address2
+7 loop1 loop2
+7 address2:0 duplicate
+7 loop1:0 address1:0
+7 duplicate loop2:0
+1 address1 one address1
+2 loop1 one loop1
+5 loop1 address1 stop
+3 jump
+stop:9
+n:1 2 3 4 
+
