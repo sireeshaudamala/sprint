@@ -1,0 +1,26 @@
+3 5
+first_element:100 n:5
+3 start 
+one:1 count:2 zero:0 two:2
+start:4 n zero stop
+7 first_element address1
+7 address1 loop1
+1 address1 one address2
+7 address2 loop2
+jump:7 zero loop1:0
+4 n one stop
+7 one loop2:1
+4 n two stop
+1 address1 one address2
+1 address2 one address3
+1 address1:0 address2:0 address3:0
+1 count one count 
+4 count n stop
+1 address1 one address1
+3 jump
+stop:9
+
+
+
+
+
