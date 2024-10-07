@@ -1,0 +1,159 @@
+3 start 
+program:3 6 2 3 0 1 3 4 5 9 
+start:3 pro_start
+first_element:3 
+temp_1:0  one:1 two:2
+is_stop:9
+is_jump:3
+is_lessthan:5
+is_equal:4
+is_copy:7
+is_addition:1
+is_subtraction:2
+is_put:0
+pro_start:7 first_element read
+loop1:7 read:0 temp_1
+check:4 temp_1 is_stop stop 
+4 temp_1 is_jump jump
+4 temp_1 is_copy copy
+4 temp_1 is_addition addition 
+4 temp_1 is_subtraction 
+subtraction
+4 temp_1 is_equal equal
+4 temp_1 is_lessthan lessthan
+4 temp_1 is_put put
+stop:9
+jump:1 read one read
+7 read address
+7 address:0 temp_1
+7 temp_1 read
+1 read two read
+3 loop1
+copy:1 read one read 
+7 read address1
+7 address1:0 address3
+1 address3 two address3
+1 read one read
+7 read address2
+7 address2:0 address4
+1 address4 two address4
+7 address3:0 address4:0
+1 read one read
+3 loop1
+addition:1 read one read
+7 read address_cpy1
+7 address_cpy1:0 address_cpy3
+1 address_cpy3 two address_cpy3
+1 read one read
+7 read address_cpy2
+7 address_cpy2:0 address_cpy4
+1 address_cpy4 two address_cpy4
+1 read one read
+7 read address_cpy5
+7 address_cpy5:0 address_cpy6
+1 address_cpy6 two address_cpy6
+1 address_cpy3:0 address_cpy4:0
+address_cpy6:0
+1 read one read
+3 loop1
+subtraction:1 read one read
+7 read address_temp1
+7 address_temp1:0 address_temp3
+1 address_temp3 two address_temp3
+1 read one read
+7 read address_temp2
+7 address_temp2:0 address_temp4
+1 address_temp4 two address_temp4
+1 read one read
+7 read address_temp5
+7 address_temp5:0 address_temp6
+1 address_temp6 two address_temp6
+2 address_temp3:0 address_temp4:0
+address_temp6:0
+1 read one read
+3 loop1
+equal:1 read one read
+7 read address_loop1 
+7 address_loop1:0 address_loop3
+1 address_loop3 two address_loop3
+1 read one read
+7 read address_loop2
+7 address_loop2:0 address_loop4
+1 address_loop4 two address_loop4
+1 read one read
+7 read address_loop5
+7 address_loop5:0 address_loop6
+1 address_loop6 two address_loop6
+4 address_loop3:0 address_loop4:0
+move
+1 read one read 
+3 loop1
+move:7 address_loop6:0 temp_1
+3 check 
+lessthan:1 read one read
+7 read address_move1 
+7 address_move1:0 address_move3
+1 address_move3 two address_move3
+1 read one read
+7 read address_move2
+7 address_move2:0 address_move4
+1 address_move4 two address_move4
+1 read one read
+7 read address_move5
+7 address_move5:0 address_move6
+1 address_move6 two address_move6
+5 address_move3:0 address_move4:0
+yes
+1 read one read 
+3 loop1
+yes:7 address_move6:0 temp_1
+3 check 
+put:1 read one read 
+7 read address_check1
+1 read one read
+7 read address_check2
+7 address_check2:0 address_check4
+1 address_check4 two address_check4
+7 address_check1:0 address_check4:0
+1 read one read
+3 loop1
+
+
+ 
+
+
+
+
+ 
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
