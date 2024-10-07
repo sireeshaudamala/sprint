@@ -1,0 +1,16 @@
+3 7 
+first_element:42 length:5 target:5
+result:0
+3 start
+ one:1 count:0
+start:7 first_element address
+4 length result stop
+jump:4 address:0 target next
+1 count one count
+1 address one address
+4 count length stop
+3 jump
+stop:9
+next:7 one result
+3 stop
+ list:1 2 3 4 5
