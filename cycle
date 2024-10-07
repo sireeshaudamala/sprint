@@ -1,0 +1,31 @@
+3 7 seq_location:74 seq_length:3 cycle_location:100 cycle_length:5
+3 start
+seq_count:0 cycle_count:0 one:1 zero:0 
+start:4 cycle_length zero stop
+4 seq_length zero stop
+7 cycle_location loop
+check:7 seq_location address
+jump:7 address:0 loop:0 
+1 seq_count one seq_count
+4 seq_count seq_length next
+1 cycle_count one cycle_count
+4 cycle_count cycle_length stop
+1 address one address
+1 loop one loop
+3 jump
+next:1 cycle_count one cycle_count
+1 loop one loop
+4 cycle_count cycle_length stop
+7 zero seq_count
+3 check
+stop:9  
+list:1 2 3 
+
+
+
+
+
+
+
+
+
