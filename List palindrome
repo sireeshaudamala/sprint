@@ -1,0 +1,21 @@
+3 6
+first_element:64 length:5 result:0
+3 start
+last_element:0 count:0 one:1 duplicate:0 two:2
+start:4 length duplicate next
+4 length one next
+1 length first_element last_element
+2 last_element one last_element
+7 first_element address1
+7 last_element loop1
+jump:4 address1:0 loop1:0 yes
+3 follow
+yes:1 address1 one address1
+2 loop1 one loop1
+5 loop1 address1 next
+3 jump
+follow:7 one result
+3 stop
+next:7 two result
+stop:9
+list:100 200 300 200 100
